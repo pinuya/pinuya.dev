@@ -53,9 +53,9 @@ export const meta: MetaFunction = () => {
     },
     {
       property: "og:image",
-      content: "https://pinuya.site/assets/portifolio.png",
+      content: "https://pinuya-dev.vercel.app/assets/portifolio.png",
     },
-    { property: "og:url", content: "https://pinuya.site" },
+    { property: "og:url", content: "https://pinuya-dev.vercel.app/" },
     { property: "og:type", content: "website" },
     { property: "og:locale", content: "pt_BR" },
 
@@ -68,10 +68,14 @@ export const meta: MetaFunction = () => {
     },
     {
       name: "twitter:image",
-      content: "https://pinuya.site/assets/portifolio.png",
+      content: "https://pinuya-dev.vercel.app/assets/portifolio.png",
     },
 
-    { tagName: "link", rel: "canonical", href: "https://pinuya.site" },
+    {
+      tagName: "link",
+      rel: "canonical",
+      href: "https://pinuya-dev.vercel.app/",
+    },
   ];
 };
 
